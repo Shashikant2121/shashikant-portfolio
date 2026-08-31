@@ -11,7 +11,7 @@ and contact information.
 ## 🚀 Live Demo
 
 🔗 **Live Portfolio:**  
-https://your-portfolio.netlify.app
+https://shashikant-portfolio-zeta.vercel.app/
 
 > Replace the above URL with your actual Netlify live URL.
 
