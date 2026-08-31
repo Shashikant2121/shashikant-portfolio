@@ -1,16 +1,96 @@
-# React + Vite
+# 🌐 Shashikant - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive and professional personal portfolio website built with
+React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+The portfolio showcases my skills, projects, education, development journey
+and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Portfolio:**  
+https://your-portfolio.netlify.app
 
-## Expanding the ESLint configuration
+> Replace the above URL with your actual Netlify live URL.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Portfolio Preview
+
+![Portfolio Preview](./public/portfolio-preview.png)
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and professional UI
+- 📱 Fully responsive design
+- 🌙 Dark / Light mode
+- ⚡ React + Vite
+- 🎯 Smooth scrolling navigation
+- 🔥 Scroll reveal animations
+- 🧑‍💻 Skills showcase
+- 🚀 Project showcase
+- 🎓 Education & development journey
+- 📩 Contact section
+- 🔗 GitHub, LinkedIn and LeetCode links
+- 📄 Resume download
+- 📱 Mobile-friendly navigation
+- ♿ Reduced-motion accessibility support
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- Tailwind CSS
+- Vite
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Font Awesome
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   ├── profile.jpg
+│   ├── resume.pdf
+│   └── portfolio-preview.png
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Education.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── data/
+│   │   └── projects.js
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
