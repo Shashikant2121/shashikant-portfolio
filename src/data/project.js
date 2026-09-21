@@ -16,7 +16,7 @@ const projects = [
     ],
     icon: "fa-solid fa-briefcase",
     github: "https://github.com/Shashikant2121/JobTrack",
-    live: "",
+    live: "#",
   },
 
   {
@@ -35,7 +35,7 @@ const projects = [
     ],
     icon: "fa-solid fa-comments",
     github: "https://github.com/Shashikant2121/ChatApp_2.0",
-    live: "",
+    live: "#",
   },
 
   {
@@ -52,7 +52,7 @@ const projects = [
     ],
     icon: "fa-solid fa-robot",
     github: "https://github.com/Shashikant2121/DeepSeekAI",
-    live: "",
+    live: "#",
   },
 
   {
@@ -69,7 +69,7 @@ const projects = [
     ],
     icon: "fa-solid fa-book-open",
     github: "https://github.com/Shashikant2121/E-Book-Store",
-    live: "",
+    live: "#",
   },
 
   {
@@ -87,7 +87,7 @@ const projects = [
     ],
     icon: "fa-solid fa-image",
     github: "https://github.com/Shashikant2121/Image-Background-Remover",
-    live: "",
+    live: "#",
   },
 
   {
@@ -104,7 +104,7 @@ const projects = [
     ],
     icon: "fa-solid fa-cloud-sun",
     github: "https://github.com/Shashikant2121/Weather-Application",
-    live: "",
+    live: "#",
   },
 ];
 

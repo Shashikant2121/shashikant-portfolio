@@ -5,9 +5,9 @@ function Hero() {
       className="relative min-h-screen overflow-hidden bg-white pt-20 dark:bg-slate-950"
     >
       {/* Background Glow */}
-      <div className="absolute left-0 top-20 -z-0 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl" />
+      <div className="absolute left-0 top-20 z-0 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl" />
 
-      <div className="absolute bottom-0 right-0 -z-0 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
+      <div className="absolute bottom-0 right-0 z-0 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
 
       <div className="mx-auto grid min-h-[calc(100vh-80px)] max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:px-8">
         {/* ================= LEFT ================= */}
@@ -43,9 +43,9 @@ function Hero() {
           {/* Description */}
 
           <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 dark:text-slate-400">
-            I build modern, responsive and user-friendly web applications using
-            JavaScript, React.js, Node.js, Express.js and MongoDB. I enjoy
-            turning ideas into scalable digital experiences.
+            I build modern, responsive and user-friendly web applications
+            using JavaScript, React.js, Node.js, Express.js and MongoDB. I
+            enjoy turning ideas into scalable digital experiences.
           </p>
 
           {/* Buttons */}
@@ -56,6 +56,7 @@ function Hero() {
               className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 font-semibold text-white shadow-xl shadow-blue-600/20 transition hover:-translate-y-1 hover:bg-blue-700"
             >
               View My Work
+
               <svg
                 className="h-5 w-5"
                 fill="none"
@@ -77,6 +78,7 @@ function Hero() {
               className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-6 py-3.5 font-semibold text-slate-700 transition hover:-translate-y-1 hover:border-blue-500 hover:text-blue-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-blue-500 dark:hover:text-blue-400"
             >
               Download Resume
+
               <svg
                 className="h-5 w-5"
                 fill="none"
@@ -139,12 +141,12 @@ function Hero() {
         <div className="relative z-10 flex justify-center lg:justify-end">
           {/* Decorative Circle */}
 
-          <div className="absolute h-[330px] w-[330px] rounded-full bg-blue-500/10 blur-2xl sm:h-[430px] sm:w-[430px]" />
+          <div className="absolute h-82.5 w-82-5 rounded-full bg-blue-500/10 blur-2xl sm:h-107.5 sm:w-107.5" />
 
           {/* Profile Image Container */}
 
           <div className="relative animate-[fadeUp_1s_ease-out]">
-            <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-blue-600 via-cyan-400 to-purple-600 opacity-60 blur-md" />
+            <div className="absolute -inset-3 rounded-full bg-linear-to-r from-blue-600 via-cyan-400 to-purple-600 opacity-60 blur-md" />
 
             <div className="relative h-72 w-72 overflow-hidden rounded-full border-4 border-white shadow-2xl sm:h-96 sm:w-96 dark:border-slate-800">
               <img
@@ -166,10 +168,10 @@ function Hero() {
               </p>
             </div>
 
-            {/* Experience Badge */}
+            {/* Projects Badge */}
 
             <div className="absolute -bottom-5 -right-5 rounded-2xl border border-slate-200 bg-white/95 px-5 py-4 shadow-xl dark:border-slate-700 dark:bg-slate-900">
-              <p className="text-2xl font-bold text-blue-600">30+</p>
+              <p className="text-2xl font-bold text-blue-600">10+</p>
 
               <p className="text-xs text-slate-500 dark:text-slate-400">
                 Projects Built
@@ -196,3 +198,4 @@ function Hero() {
 }
 
 export default Hero;
+

@@ -38,16 +38,16 @@ function Projects() {
               key={project.id}
               className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-2xl dark:border-slate-800 dark:bg-slate-950 dark:hover:border-blue-900"
             >
-              {/* ================= PROJECT PREVIEW ================= */}
+              {/* Project Preview */}
 
-              <div className="relative flex h-52 items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 via-blue-500 to-purple-600">
+              <div className="relative flex h-52 items-center justify-center overflow-hidden bg-linear-to-br from-blue-600 via-blue-500 to-purple-600">
                 {/* Decorative Circles */}
 
                 <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-white/10" />
 
                 <div className="absolute -bottom-16 -left-10 h-48 w-48 rounded-full bg-white/10" />
 
-                {/* Project Icon */}
+                {/* Icon */}
 
                 <div className="relative flex h-24 w-24 items-center justify-center rounded-2xl border border-white/20 bg-white/10 shadow-2xl backdrop-blur-md transition duration-500 group-hover:scale-110 group-hover:rotate-3">
                   <i className={`${project.icon} text-4xl text-white`} />
@@ -60,22 +60,22 @@ function Projects() {
                 </span>
               </div>
 
-              {/* ================= PROJECT CONTENT ================= */}
+              {/* Project Content */}
 
               <div className="flex flex-1 flex-col p-6">
-                {/* Project Title */}
+                {/* Title */}
 
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">
                   {project.title}
                 </h3>
 
-                {/* Project Description */}
+                {/* Description */}
 
                 <p className="mt-3 flex-1 text-sm leading-7 text-slate-600 dark:text-slate-400">
                   {project.description}
                 </p>
 
-                {/* ================= TECHNOLOGIES ================= */}
+                {/* Technologies */}
 
                 <div className="mt-5 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => (
@@ -88,10 +88,10 @@ function Projects() {
                   ))}
                 </div>
 
-                {/* ================= BUTTONS ================= */}
+                {/* Buttons */}
 
                 <div className="mt-6 flex gap-3">
-                  {/* GitHub Button */}
+                  {/* GitHub */}
 
                   <a
                     href={project.github}
@@ -103,7 +103,7 @@ function Projects() {
                     GitHub
                   </a>
 
-                  {/* Live Demo Button */}
+                  {/* Live Demo */}
 
                   <a
                     href={project.live}
@@ -120,7 +120,7 @@ function Projects() {
           ))}
         </div>
 
-        {/* ================= BOTTOM CTA ================= */}
+        {/* Bottom CTA */}
 
         <div className="mt-14 text-center">
           <a
