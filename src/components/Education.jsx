@@ -145,11 +145,12 @@ function Education() {
               <div className="mt-4 ml-14 md:mt-0 md:ml-0 md:w-[45%]">
                 <div className="flex flex-wrap gap-2 md:justify-start">
                   {[
-                    "Task Tracker",
-                    "Habit Tracker",
-                    "Weather App",
-                    "Social Media",
+                    "Job Tracker",
+                    "ChatApp",
+                    "Deepseek AI",
+                    "E-book Store",
                     "Background Remover",
+                    "Weather Application",
                   ].map((project) => (
                     <span
                       key={project}
